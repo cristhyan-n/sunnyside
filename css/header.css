@@ -1,0 +1,64 @@
+.header-bg {
+  background: url('../images/desktop/image-header.jpg')no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header, .header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header {
+  padding: 1.5rem 2rem;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.header-menu {
+  gap: 1.6rem;
+}
+
+.header-menu a{
+  font: 600 1rem/1 "Barlow", sans-serif;
+  color: var(--white);
+}
+
+.header-menu li:nth-child(-n+3) a:hover {
+color: hsl(0, 0%, 100%, .6);
+}
+
+.header-menu li:last-child a {
+  background: var(--white);
+  color: var(--very-des-blue);
+  padding: 1rem 1.5rem;
+  border-radius: 30px;
+  font: 700 1rem "Fraunces", sans-serif;
+  text-transform: uppercase;
+}
+
+.header-menu li:last-child a:hover {
+  color: var(--white);
+  background: hsl(0, 0%, 100%, .2);
+  transition: .2s;
+}
+
+/* INTRO */
+
+.header-intro {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+}
+
+.header-intro h1 {
+  text-transform: uppercase;
+  color: var(--white);
+  font: 900 3rem/1 "Fraunces", sans-serif;
+  margin-bottom: 50px;
+  letter-spacing: 10px;
+}

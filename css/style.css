@@ -1,0 +1,5 @@
+@import 'header.css';
+@import 'global.css';
+
+/* Componentes */
+@import '/css/componentes/cores.css';
