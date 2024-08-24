@@ -1,0 +1,128 @@
+.home section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.home p {
+  max-width: 45ch;
+  font-family: "Barlow", sans-serif;
+  line-height: 1.6;
+  color: var(--dark-gray-blue);
+}
+
+.home h2, h3 {
+  font-family: "Fraunces", sans-serif;
+}
+
+.home h2 {
+  font-size: 2rem;
+  max-width: 15ch;
+  font-weight: 900;
+  color: var(--very-des-blue);
+}
+
+.home a {
+  font: 900 1rem/1 "Fraunces", sans-serif;
+  color: var(--very-des-blue);
+  display: block;
+  position: relative;
+  transition: .2s;
+}
+
+.home a::before {
+  content: '';
+  display: block;
+  height: 7px;
+  width: 110%;
+  position: absolute;
+  bottom:-1px;
+  left: -5px;
+  z-index: -1;
+  border-radius: 5px;
+}
+
+.home a:hover {
+  transform: scale(1.07);
+}
+
+.brand-info, .stand-info, .graphic-info, .photo-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.brand-info, .stand-info {
+  justify-content: center;
+  align-items: start;
+  gap: 1.5rem;
+  margin: 0 auto;
+}
+
+.brand-info a::before {
+  background: hsl(51, 100%, 49%, .6);
+}
+
+.brand-info a:hover::before {
+  background: var(--yellow);
+}
+
+.stand-info a::before {
+  background: hsl(7, 99%, 70%, .6);
+}
+
+.stand-info a:hover::before {
+  background: var(--soft-red);
+}
+
+.brand-bg, .stand-bg, .graphic-photo {
+  height: 500px;
+}
+
+.brand-bg {
+  background: url("/images/desktop/image-transform.jpg");
+}
+
+.stand-bg {
+  background: url("/images/desktop/image-stand-out.jpg");
+}
+
+.graphic-info {
+  background: url("/images/desktop/image-graphic-design.jpg");
+}
+
+.photo-info {
+  background: url("/images/desktop/image-photography.jpg");
+}
+
+.brand-bg, .stand-bg, .graphic-info, .photo-info {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.graphic-photo h3{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.graphic-photo p {
+  max-width: 38ch;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.graphic-info, .photo-info {
+justify-content: end;
+align-items: center;
+gap: 30px;
+height: 600px;
+}
+
+.graphic-info h3, .graphic-info p {
+  color: var(--dark-des-cyan);
+}
+
+.photo-info h3, .photo-info p {
+  color: var(--dark-blue);
+}
+

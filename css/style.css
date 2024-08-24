@@ -1,5 +1,6 @@
 @import 'header.css';
 @import 'global.css';
+@import 'home.css';
 
 /* Componentes */
 @import '/css/componentes/cores.css';
