@@ -1,3 +1,7 @@
+.home {
+  margin-bottom: 100px;
+}
+
 .home section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -115,7 +119,6 @@
 justify-content: end;
 align-items: center;
 gap: 30px;
-height: 600px;
 }
 
 .graphic-info h3, .graphic-info p {

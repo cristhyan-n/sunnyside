@@ -59,6 +59,7 @@ color: hsl(0, 0%, 100%, .6);
   text-transform: uppercase;
   color: var(--white);
   font: 900 3rem/1 "Fraunces", sans-serif;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   letter-spacing: 10px;
+  text-align: center;
 }

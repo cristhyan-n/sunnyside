@@ -1,0 +1,60 @@
+.clients {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin-bottom: 100px;
+}
+
+.clients h1 {
+  text-transform: uppercase;
+  font: 600 2rem/1 "Barlow", sans-serif;
+  letter-spacing: 5px;
+  color: var(--dark-gray-blue);
+  margin-bottom: 60px;
+}
+
+.clients-test {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.clients-test p {
+  max-width: 35ch;
+  text-align: center;
+  font: 600 1rem/1 "barlow", sans-serif;
+  line-height: 1.5;
+  color: var(--very-grayish-blue);
+}
+
+.clients-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 60px;
+}
+
+.clients-info img {
+  border-radius: 50%;
+  max-width: 100px;
+}
+
+.add-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.name {
+  font: 900 1.5rem/1 "Fraunces", sans-serif;
+  color: var(--very-des-blue);
+}
+
+.job {
+  font: 600 1rem/1 "Barlow", sans-serif;
+  color: var(--grayish-blue);
+}
