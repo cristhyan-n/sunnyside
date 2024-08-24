@@ -1,0 +1,27 @@
+.pictures {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.milk {
+  background: url("../images/desktop/image-gallery-milkbottles.jpg");
+}
+
+.oranges {
+  background: url("../images/desktop/image-gallery-orange.jpg");
+}
+
+.cone {
+  background: url("../images/desktop/image-gallery-cone.jpg");
+}
+
+.sugar {
+  background: url("../images/desktop/image-gallery-sugarcubes.jpg");
+}
+
+.pictures div{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}

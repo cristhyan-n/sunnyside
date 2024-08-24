@@ -2,6 +2,7 @@
 @import 'global.css';
 @import 'home.css';
 @import 'clients-test.css';
+@import 'pictures.css';
 
 /* Componentes */
 @import '/css/componentes/cores.css';
