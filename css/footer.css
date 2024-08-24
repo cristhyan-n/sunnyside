@@ -1,0 +1,35 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  background: hsl(168, 50%, 70%);
+  padding: 60px 0;
+}
+
+.footer a {
+  margin-bottom: 30px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 60px;
+}
+
+.footer-menu li a {
+  font: 600 1rem/1 "Barlow", sans-serif;
+  color: var(--dark-moderate);
+  transition: 0.2s;
+}
+
+.footer-menu li a:hover {
+  color: var(--white);
+}
+
+.footer-redes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
