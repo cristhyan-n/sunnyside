@@ -4,19 +4,19 @@
 }
 
 .milk {
-  background: url("../images/desktop/image-gallery-milkbottles.jpg");
+  background: url("../images/mobile/image-gallery-milkbottles.jpg");
 }
 
 .oranges {
-  background: url("../images/desktop/image-gallery-orange.jpg");
+  background: url("../images/mobile/image-gallery-orange.jpg");
 }
 
 .cone {
-  background: url("../images/desktop/image-gallery-cone.jpg");
+  background: url("../images/mobile/image-gallery-cone.jpg");
 }
 
 .sugar {
-  background: url("../images/desktop/image-gallery-sugarcubes.jpg");
+  background: url("../images/mobile/image-gallery-sugar-cubes.jpg");
 }
 
 .pictures div{
@@ -24,4 +24,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
+}
+
+@media (max-width: 375px) {
+  .pictures {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pictures div {
+    height: 200px;
+  }
 }
