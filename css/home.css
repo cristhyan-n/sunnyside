@@ -132,6 +132,10 @@ gap: 30px;
 
 @media (max-width: 375px) {
 
+  .home {
+    margin-bottom: 60px;
+  }
+
   .home section {
     grid-template-columns: 1fr;
   }

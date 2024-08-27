@@ -58,3 +58,29 @@
   font: 600 1rem/1 "Barlow", sans-serif;
   color: var(--grayish-blue);
 }
+
+@media (max-width: 375px) {
+  .clients h1 {
+    font-size: 1rem;
+  }
+
+  .clients-test {
+    gap: 100px;
+  }
+
+  .clients-info {
+    gap: 30px;
+  }
+
+  .clients-info img {
+    max-width: 70px;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+
+  .job {
+    font-size: .875rem;
+  }
+}
